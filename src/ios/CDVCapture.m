@@ -230,8 +230,6 @@
         options = [NSDictionary dictionary];
     }
 
-    printf("Over here Tim my good good friend");
-
     // options could contain limit, duration and mode
     // taking more than one video (limit) is only supported if provide own controls via cameraOverlayView property
     NSNumber* duration = [options objectForKey:@"duration"];
